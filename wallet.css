@@ -1,0 +1,666 @@
+body {
+    background-color: #403D50;
+}
+
+.container {
+    background-color: #1F1D2C;
+    margin: 30px 15px;
+    height: 661px;
+    /* border-radius: 20px; */
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+/* -------------------------MAIN LEFT CSS STARTS HERE--------------- */
+.main-left {
+    /* background-color: yellow; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 30px; */
+}
+
+.menu-bar {
+    /* background-color: royalblue; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex: 5;
+    gap: .85em;
+    color: #76767E;
+    /* padding-left: 30px; */
+}
+
+.menu {
+    margin-left: 30px;
+}
+
+.left-logo {
+    /* background-color: violet; */
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    gap: 15px;
+}
+
+.logo {}
+
+.logo img {
+    height: 50px;
+    border-radius: 50%;
+    /* outline: 1px solid darkgray; */
+    /* padding: 20px; */
+}
+
+.logo-text {
+    align-items: center;
+}
+
+.logo-text .mail span {
+    color: #4B4955;
+}
+
+.logo-setting {
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
+.logo-setting img {
+    border: 1px solid darkgray;
+    background: #2F3142;
+    border-radius: 10px;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+
+}
+
+
+
+/* -------------------------------DASHBOARD---------------------- */
+
+.dashboard {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-left: 30px;
+    margin-left: 0px;
+    /* background-color: azure; */
+    padding-left: 30px;
+    height: 60px;
+
+}
+
+.dashboard:hover {
+    cursor: pointer;
+    background-color: #252836;
+    border-left: 3px solid #785EC6;
+}
+
+.dashboard img.homeIcon {
+    border: 1px solid darkgray;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #6969DF;
+}
+
+.menu-bar .line {
+    border-bottom: 1px solid #31303D;
+
+
+    margin-top: -18px;
+
+    margin-left: 0px;
+    margin-right: -40px;
+    width: 85%;
+}
+
+/* -------------------------------SEND MONEY---------------------- */
+
+.sendMoney {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-left: 30px;
+    margin-left: 0px;
+    /* background-color: azure; */
+    padding-left: 30px;
+    height: 60px;
+    margin-top: -20px;
+
+}
+
+.sendMoney:hover {
+    cursor: pointer;
+    background-color: #252836;
+    border-left: 3px solid #785EC6;
+}
+
+.sendMoney img.sendIcon {
+    border: 1px solid darkgray;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #32A7E2;
+}
+
+.line {
+    border-bottom: 1px solid #31303D;
+    margin-left: -30px;
+    width: 100%;
+    padding-right: 8px;
+    margin-top: -10px;
+
+}
+
+
+/* -----------------TOP UP----------------------------- */
+
+.top-up {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-left: 30px;
+    margin-left: 0px;
+    /* background-color: azure; */
+    padding-left: 30px;
+    height: 60px;
+    margin-top: -20px;
+
+}
+
+.top-up:hover {
+    cursor: pointer;
+    background-color: #252836;
+    border-left: 3px solid #785EC6;
+}
+
+.top-up img.topUPIcon {
+    border: 1px solid darkgray;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #B548C6;
+}
+
+.line {
+    border-bottom: 1px solid #31303D;
+    margin-left: -30px;
+    width: 100%;
+    padding-right: 8px;
+    margin-top: -10px;
+
+}
+
+/* --------------------------WITHDRAW------------------ */
+
+.withdraw {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-left: 30px;
+    margin-left: 0px;
+    /* background-color: azure; */
+    padding-left: 30px;
+    height: 60px;
+    margin-top: -20px;
+
+}
+
+.withdraw:hover {
+    cursor: pointer;
+    background-color: #252836;
+    border-left: 3px solid #785EC6;
+}
+
+.withdraw img.withdrawIcon {
+    border: 1px solid darkgray;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #22B07D;
+}
+
+.line {
+    border-bottom: 1px solid #31303D;
+    margin-left: -30px;
+    width: 100%;
+    padding-right: 8px;
+    margin-top: -10px;
+
+}
+
+/* -----------------BILL------------------------- */
+
+.bill {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-left: 30px;
+    margin-left: 0px;
+    /* background-color: azure; */
+    padding-left: 30px;
+    height: 60px;
+    margin-top: -20px;
+
+}
+
+.bill:hover {
+    cursor: pointer;
+    background-color: #252836;
+    border-left: 3px solid #785EC6;
+}
+
+.bill img.billIcon {
+    border: 1px solid darkgray;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #FF8700;
+}
+
+.line {
+    border-bottom: 1px solid #31303D;
+    margin-left: -30px;
+    width: 100%;
+    padding-right: 8px;
+    margin-top: -10px;
+
+}
+
+/* -----------------SETTINGS------------------------------------------- */
+
+.setting1 {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-left: 30px;
+    margin-left: 0px;
+    /* background-color: azure; */
+    padding-left: 30px;
+    height: 60px;
+    margin-top: -20px;
+
+}
+
+.setting1:hover {
+    cursor: pointer;
+    background-color: #252836;
+    border-left: 3px solid #785EC6;
+}
+
+.setting1 img.setting1Icon {
+    border: 1px solid darkgray;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #9471F6;
+}
+
+.line {
+    border-bottom: 1px solid #31303D;
+    margin-left: -30px;
+    width: 100%;
+    padding-right: 8px;
+    margin-top: -10px;
+
+}
+
+/* -----------------REQUEST PAYMENT------------------------------------------- */
+
+.request {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-left: 30px;
+    margin-left: 0px;
+    /* background-color: azure; */
+    padding-left: 30px;
+    height: 60px;
+    margin-top: -20px;
+    padding-bottom: 17px;
+
+}
+
+.request:hover {
+    cursor: pointer;
+    background-color: #252836;
+    border-left: 3px solid #785EC6;
+}
+
+.request img.requestIcon {
+    border: 1px solid darkgray;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #F67171;
+}
+
+.line {
+    border-bottom: 1px solid #31303D;
+    margin-left: -30px;
+    width: 100%;
+    padding-right: 8px;
+    margin-top: -10px;
+
+}
+
+
+.other-menu {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin-left: 30px; */
+}
+
+
+/* -----------------history------------------------------------------- */
+
+.history {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-left: 30px;
+    margin-left: 0px;
+    /* background-color: azure; */
+    padding-left: 30px;
+    height: 60px;
+    margin-top: -20px;
+
+}
+
+.history:hover {
+    cursor: pointer;
+    background-color: #252836;
+    border-left: 3px solid #785EC6;
+}
+
+.history img.historyIcon {
+    border: 1px solid darkgray;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #12CDD9;
+}
+
+.line {
+    border-bottom: 1px solid #31303D;
+    margin-left: -30px;
+    width: 100%;
+    padding-right: 8px;
+    margin-top: -10px;
+
+}
+
+
+
+/* -----------------HELP------------------------------------------- */
+
+.help {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-left: 30px;
+    margin-left: 0px;
+    /* background-color: azure; */
+    padding-left: 30px;
+    height: 60px;
+    margin-top: -20px;
+
+}
+
+.help:hover {
+    cursor: pointer;
+    background-color: #252836;
+    border-left: 3px solid #785EC6;
+}
+
+.help img.helpIcon {
+    border: 1px solid darkgray;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #FFB648;
+}
+
+
+.right {
+    display: flex;
+    background-color: #252836;
+    width: 100%;
+}
+
+/* -------------------------MAIN MIDDLE CSS STARTS HERE--------------- */
+.main-middle {
+    background-color: #252836;
+    display: flex;
+    flex-direction: column;
+    /* flex: 2; */
+    border-right: 2px solid #2F323F;
+    gap: 35px;
+}
+
+.middleTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middleTop .middle-setting {
+    margin-left: -260px;
+    margin-top: 15px;
+    color: white;
+    font-size: small;
+}
+
+.middleTop .middle-setting h2 {
+    font-weight: bold;
+}
+
+
+/* -----------------PROGRESS BAR CSS------------------------ */
+
+.bar-section {
+    background-color: #216FED;
+    width: 90%;
+    height: 165px;
+    border-radius: 20px;
+    margin-left: 0px;
+
+}
+
+.bar-top {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 120px;
+
+    margin-left: 15px;
+    margin-top: 25px;
+
+}
+
+.box {
+    position: relative;
+
+}
+
+.progress-circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background-color: #377DEF;
+    border: 10px solid white;
+    border-radius: 50%;
+    z-index: 0;
+    margin: 0;
+}
+
+.progress-bar {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    border: 10px solid #377DEF;
+    border-radius: 50%;
+    z-index: 1;
+    clip-path: polygon(56% 0%, 54.11% 50.25%, -19.04% 50.87%, -11.11% -4.73%);
+    right: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.score {
+    margin-top: 22px;
+    margin-left: 18px;
+    font-size: 17px;
+    
+    position: absolute;
+    color: white;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    font-weight: bold;
+
+    z-index: 1;
+}
+
+.bar-info {
+    margin-right: 12px;
+    margin-left: -11px;
+    margin-top: 10px;
+}
+
+.bar-info span.info {
+    font-weight: bolder;
+    font-size: large;
+    color: #F1F6FD;
+}
+
+.bar-info p.info2 {
+    color: #8CB4F5;
+    font-size: small;
+    font-weight: bold;
+}
+
+
+.bar-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid white;
+    width: 86%;
+    padding: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 5px;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 18px;
+
+    border-radius: 15px;
+    color: #4787F0;
+    font-weight: bold;
+}
+
+/* -----------------MIDDLE BOTTOM CSS------------------ */
+
+.middle-bottom-main{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+gap: 30px;
+}
+.middleBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #31303D;
+    padding: 20px;
+
+    margin-top: -25px;
+}
+
+.appearence {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 42px;
+}
+
+.heartIcon img {
+    border: 1px solid darkgray;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #2F3142;
+}
+
+.appearence-text {
+    display: flex;
+    flex-direction: column;
+    color: #777982;
+    font-weight: bold;
+}
+
+/* ----------------------------------- */
+
+
+.account {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 49px;
+}
+
+.accountIcon img {
+    border: 1px solid darkgray;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #525297;
+}
+
+.account-text {
+    display: flex;
+    flex-direction: column;
+    color: #777982;
+    font-weight: bold;
+}
+
+/* --------------------------------------- */
+
+.security {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 71px;
+}
+
+.securityIcon img {
+    border: 1px solid darkgray;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #2F3142;
+}
+
+.security-text {
+    display: flex;
+    flex-direction: column;
+    color: #777982;
+    font-weight: bold;
+}
+
+
+
+
+
+/* -------------------------MAIN RIGHT CSS STARTS HERE--------------- */
+.main-right {
+    /* background-color: violet; */
+    display: flex;
+    /* flex: 3; */
+}
